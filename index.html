@@ -19,14 +19,17 @@
     </nav>
 
     <form id="searchForm">
-      <div class="form-group col-12 col-md-3">
+      <div class="form-group col-md-3">
         <label for="exampleInputEmail1">Search for a city</label>
         <input type="city" class="form-control mb-3" id="citySearch" aria-describedby="city-name" placeholder="City Name">
-        <button type="button" id="searchBtn" class="btn btn-primary">Search</button>
+        <button type="submit" id="searchBtn" class="btn btn-primary">Search</button>
       </div>
     </form>
 
     <!-- Weather data -->
+    <div class="border mt-2 col-md-9">
+      <h3 id="city-date" class="col"></h3>
+    </div>
     <div class="col-12 col-md-9" id="weatherCon">
       <div id="currentWeatherCon" class="row mb-3"></div>
       <div id="forecastCon" class="row"></div>
