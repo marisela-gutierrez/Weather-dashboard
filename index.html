@@ -20,7 +20,7 @@
 
     <form id="searchForm">
       <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Search for a city</label>
+        <label class="font-weight-bold" for="searchCity">Search for a city</label>
         <input type="city" class="form-control mb-3" id="citySearch" aria-describedby="city-name" placeholder="City Name">
         <button type="submit" id="searchBtn" class="btn btn-primary">Search</button>
       </div>
@@ -32,7 +32,9 @@
     </div>
     <div class="col-12 col-md-9" id="weatherCon">
       <div id="currentWeatherCon" class="row mb-3"></div>
-      <div id="forecastCon" class="row"></div>
+      <div id="forecastCon" class="row">
+        <h4>Five day Forecast</h4>
+      </div>
     </div>
   </main>
 
